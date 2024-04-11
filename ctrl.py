@@ -37,16 +37,27 @@ class Control:
         
         return a/b
 <<<<<<< HEAD
+<<<<<<< HEAD
     
     def pow(self, a, b):
         return pow(a, b)
     
 =======
      def pow(self, a, b):
+=======
+    
+    def pow(self, a, b):
+>>>>>>> d8850f6 (Modify pow function using exception)
         try:
            if (a==0):
                 raise Exception("Base Error")
             
         except Exception as e:
             return e
+<<<<<<< HEAD
 >>>>>>> 4d7be5b (Modify pow function to check base)
+=======
+        
+        return pow(a, b)   
+    
+>>>>>>> d8850f6 (Modify pow function using exception)
